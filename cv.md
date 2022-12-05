@@ -1,7 +1,10 @@
-##HI evryone!!!! ![me](/photo/me.jpg))
-#This's my CV
-_ABOUT ME_
-*i`m 18 years old, i study in the minsk trade college. Last ear i finished my firs course it was Js-Frond-end stage0. i alawys want to try coding. So now im a beginir in js and IT.*
+
+## HI evryone!!!! 
+# This's my CV
+|________| |![me](/photo/me.jpg))| |_________|
+### _ ABOUT ME _
+
+> i`m 18 years old, i study in the minsk trade college. Last ear i finished my firs course it was Js-Frond-end stage0. i alawys want to try coding. So now im a beginir in js and IT.
 
 *for exsemple my code*
 
