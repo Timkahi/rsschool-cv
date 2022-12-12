@@ -4,7 +4,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>CV</title>
 </head>
-<body></body>
+<body>
+    <div class="back-up">
+        <svg class="r">
+            <use href="./photo/svg/bat.svg#bat"></use>
+        </svg>
+        <a href="#head" class="link-back">cgchggh</a>
+    </div>
+    <header id="head">
+        <h1 class="name">My CV</h1>
+        <nav class="navigation">
+            <ul class="list">
+                <li><a href="#about-me" class="link-style">About me</a></li>
+                <li><a href="#progects" class="link-style">ProJects</a></li>
+                <li><a href="#eduation" class="link-style">Education</a></li>
+                <li><a href="#skills" class="link-style">Skills</a></li>
+                <li><a href="#code" class="link-style">Code</a></li>
+                <li><a href="#contacts" class="link-style">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-me exstra-class" id="about-me">
+            <h2>About me</h2>
+            <div class="photo-with-text">
+                <div class="photo">
+                    <img src="./photo/me.jpg" alt="selfy">
+                </div>
+                <div class="text">I`m 18 years old, i study in the minsk trade <br>
+                     college. Last ear i finished my firs course it <br>
+                      was Js-Frond-end stage0. i alawys want to <br>
+                      try coding. So now im a beginner in js and <br>
+                      IT. I tried to finish stage 1 but i didn’t have <br>
+                      enough time.</div>
+            </div>
+        </section>
+
+        <section class="progects exstra-class" id="progects">
+            <h2>Projects</h2>
+            <div class="svg-icons">
+                <div class="project-box">
+                    <div class="h3">Potfolio</div>
+                    <svg class="camera">
+                        <use href="./photo/svg/sprite.svg#camera"></use>
+                    </svg>
+                    <a href="https://rolling-scopes-school.github.io/timkahi-JSFEPRESCHOOL/Portfolio/#protfolio" class="link"></a>
+                </div>
+                <div class="project-box">
+                    <div class="h3">Snake</div>
+                    <svg class="snake">
+                        <use href="./photo/svg/snake.svg#Layer_1"></use>
+                    </svg>
+                    <a href="https://timkahi.github.io/snake/" class="link"></a>
+                </div>
+                <div class="project-box">
+                    <div class="h3">Future</div>
+                    <svg class="next-bottun">
+                        <use href="./photo/svg/next-button.svg#Layer_1"></use>
+                    </svg>
+                    <a href="https://github.com/Timkahi" class="link"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="eduation exstra-class" id="eduation">
+            <h2>Education</h2>
+            <ul class="ul">
+                <li>Junior secondary education</li>
+                <li>High-school education.</li>
+                <li>Secondary special education</li>
+            </ul>
+        </section>
+
+        <section class="skills exstra-class" id="skills">
+            <h2>Skills</h2>
+            <div class="box-for-skills">
+                <ul class="ul">
+                    <li> class="size">English skills:</li>
+                    <li>>A-enter-media.</li>
+                </ul>
+                <ul class="ul">
+                    <li>class="size">Skills:</li>
+                    <li>Blender artist - beginner</li>
+                    <li>Front-end developer - beginner</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="code exstra-class" id="code">
+            <h2>Code</h2>
+            <pre class="text g">
+    function gameLoop () {
+
+        requestAnimationFrame(gameLoop);
+        if (++settigs.step > settigs.maxStep) {
+            return;
+        }
+        settigs.step = 0
+        context.clearRect(0, 0, canvas.width, canvas.height)
+        drawSnake()
+        drawBary()
+    }
+            </pre>
+        </section>
+    </main>
+    <footer id="contacts">
+        <section class="exstra-class">
+            <h2>Contacts</h2>
+            <div class="footer-flex-box">
+                <div class="svg-icons">
+                    <div class="box-icons">
+                        <svg class="svg-ic">
+                            <use href="./photo/svg/github1.svg#git"></use>
+                        </svg>
+                        <a href="https://github.com/Timkahi" class="link-icons fix"></a>
+                    </div>
+                    <div class="box-icons">
+                        <svg class="svg-ic">
+                            <use href="./photo/svg/inst.svg#inst"></use>
+                        </svg>
+                        <a href="https://instagram.com/timalotah?igshid=ZDdkNTZiNTM=" class="link-icons fix1"></a>
+                    </div>
+                    <div class="box-icons">
+                        <svg class="svg-ic">
+                            <use href="./photo/svg/discorda.svg#dis"></use>
+                        </svg>
+                        <a href="https://discord.com/accessibility" class="link-icons fix2"></a>
+                    </div>
+                </div>
+                <div class="year">2022</div>
+                <div class="icon-rscchool">
+                    <img src="./photo/rs.png" alt="name school">
+                    <a href="https://rs.school/js/" class="link-icons fix3"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
 </html>
